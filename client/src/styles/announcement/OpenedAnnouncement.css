@@ -1,0 +1,64 @@
+.drop-down-menu {
+    background-color: rgb(69, 162, 158);
+    width: 270px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.message-list {
+    width: 270px;
+    height: 400px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    overflow: auto;
+}
+
+.message {
+    width: 230px;
+    background-color: white;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.message-sender {
+    color: gray;
+    text-decoration-line: underline;
+    font-size: small;
+}
+
+.hide-button {
+    color:lightgray;
+    font-size: small;
+    border: 0px;
+    background-color: rgb(69, 162, 158);
+    width: 115px;
+    margin-left: 135px;
+}
+
+.input-and-send-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.send-button {
+    color: lightgray;
+    background-color: rgb(69, 162, 158);
+    border: 0px solid white;
+    border-radius: 5px;
+    height: 20px
+}
+
+.message-input {
+    resize: none;
+    border-radius: 5px;
+}
