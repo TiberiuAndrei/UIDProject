@@ -1,0 +1,57 @@
+.container {
+  height: 100vh;
+  display: flex; 
+  justify-content:center;
+  align-items: center;
+}
+
+.green-container {
+  width: 1000px;
+  background-color: #45a29e;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+.title {
+  margin-top: 39px;
+  color: white;
+}
+
+form {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex;
+}
+
+label {
+  margin-top: 20px;
+}
+
+input, textarea {
+  margin-top: 10px;
+}
+
+.content {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.decision-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  width: fit-content;
+  height: fit-content;
+  margin: 20px 0;
+  padding: 10px 20px;
+  color: #aaaaaa;
+  background-color: #1f2833;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
