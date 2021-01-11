@@ -1,24 +1,20 @@
 import './App.css';
-import AnnouncementPage from './components/announcement/AnnouncementPage'
-import DecisionsPageOwner from './components/decisions/DecisionsPageOwner'
-import DecisionsPageAdmin from './components/decisions/DecisionsPageAdmin'
-import AddNewDecisionPage from './components/decisions/AddNewDecisionPage'
-import NavbarGuest from './components/navbar/NavbarGuest'
-import NavbarOwner from './components/navbar/NavbarOwner';
-import NavbarAdmin from './components/navbar/NavbarAdmin';
-import Message from './components/messages/Message'
+import UserTable from './components/user/UserTable'
+import CreateUserForm from './components/user/CreateUserForm'
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { useEffect } from 'react'
 
 function App() {
   return (
-    <div>
-      <NavbarGuest />
-      <NavbarOwner />
-      <NavbarAdmin />
-      <DecisionsPageOwner />
-      <DecisionsPageAdmin />
-      <AddNewDecisionPage />
-      <Message message="Transaction Successful"/>
-    </div>
+    //<AnnouncementPage />
+    <BrowserRouter>
+      <Switch>
+        <Route path = "/createUser" component = {CreateUserForm}/>
+        <Route path = "/users/:firstName/:lastName/:email/:phoneNumber/:address" component = {UserTable}/>
+        <Route path = "/users" component = {UserTable}/>
+        <Route exact strict path = "/" component = {AnnouncementPage}/>
+      </Switch>
+    </BrowserRouter>
   );
 }
 

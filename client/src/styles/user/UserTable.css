@@ -1,0 +1,75 @@
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+
+tr {
+    height: 30px;
+}
+
+
+td, th {
+    text-align: center;
+    min-width: 200px;
+    
+}
+
+th {
+    color: rgb(69, 162, 158);
+    border: 0px;
+    border-bottom: 1px solid rgb(69, 162, 158);
+    border-top: 1px solid rgb(69, 162, 158);
+}
+
+th:nth-child(6) {
+    min-width: 400px;;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: rgb(69, 162, 158);
+    width: 1500px;
+    overflow: auto;
+}
+
+table button {
+    color: rgb(170, 170, 170);
+    background-color: rgb(31, 40, 51);
+    border-radius: 5px;
+    border: 0px;
+}
+
+table button:hover {
+    background-color: rgb(69, 162, 158);
+    color:white;
+}
+
+.table-background {
+    background-color: rgb(69, 162, 158);
+    height: 500px;
+    width: 1500px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.table-wrapper {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.add-user-button {
+    background-color: rgb(69, 162, 158);
+    color: white;
+    border-radius: 5px;
+    margin-top: 30px;
+    border: 0px;
+    width: 150px;
+    height: 30px;
+}
