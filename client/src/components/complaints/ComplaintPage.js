@@ -2,6 +2,7 @@ import * as React from 'react';
 import { useState } from 'react'
 import '../../styles/complaints/ComplaintPage.css'
 import Complaint from './Complaint';
+import NavbarAdmin from '../navbar/NavbarAdmin'
 
 const data = [
   {
@@ -71,24 +72,25 @@ const ComplaintPage = () => {
   const [complaints, setComplaints] = useState(data)
 
   return (
-    <div className="container">
-      <div className="content">
-        <form onSubmit={e => { search(query, setQuery, triggerRender, setTriggerRender, setComplaints); e.preventDefault() }}>
-          <input type="text" placeholder="Search.." name="search" value={query} onChange={e => setQuery(e.target.value)} />
-          <button type="submit"><i class="material-icons">search</i></button>
-        </form>
+    <div>
+      <NavbarAdmin />
+      <div className="container">
+        <div className="content">
+          <form onSubmit={e => { search(query, setQuery, triggerRender, setTriggerRender, setComplaints); e.preventDefault() }}>
+            <input type="text" placeholder="Search.." name="search" value={query} onChange={e => setQuery(e.target.value)} />
+            <button type="submit"><i class="material-icons">search</i></button>
+          </form>
 
-        <div className="complaints-container">
-          {complaints.map(complaint => {
-            return (
-              <Complaint data={complaint} />
-            )
-          })}
+          <div className="complaints-container">
+            {complaints.map(complaint => {
+              return (
+                <Complaint data={complaint} />
+              )
+            })}
+          </div>
         </div>
       </div>
     </div>
-
-
   )
 }
 

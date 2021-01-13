@@ -36,27 +36,29 @@ const data = [
 
 function App() {
   return (
-    <ComplaintPage />
+    // <ComplaintPage />
     // <Complaint data={data[1]}/>
 
     // <Meeting data={data[0]}/>
     // <MeetingsPage />
     // <AddNewMeetingPage />
-  
-  
-    // <BrowserRouter>
-    //   <Switch>
-    //   <Route path = "/welcomepage/:email" component={WelcomePage}/>
-    //   <Route path = "/" component = {Login}/>
-    //   </Switch>
-    // </BrowserRouter>
+
+
+    <BrowserRouter>
+      <Switch>
+        <Route path="/admin/complaints" component={ComplaintPage} />
+        <Route path="/admin/meetings" component={MeetingsPage} />
+        <Route path="/welcomepage/:email" component={WelcomePage} />
+        <Route path="/" component={Login} />
+      </Switch>
+    </BrowserRouter>
 
 
 
-/*<Route path = "/createUser" component = {CreateUserForm}/>
-        <Route path = "/users/:firstName/:lastName/:email/:phoneNumber/:address" component = {UserTable}/>
-        <Route path = "/users" component = {UserTable}/>
-        <Route exact strict path = "/" component = {AnnouncementPage}/>*/
+    /*<Route path = "/createUser" component = {CreateUserForm}/>
+            <Route path = "/users/:firstName/:lastName/:email/:phoneNumber/:address" component = {UserTable}/>
+            <Route path = "/users" component = {UserTable}/>
+            <Route exact strict path = "/" component = {AnnouncementPage}/>*/
   );
 }
 

@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useState } from 'react'
 import '../../styles/meetings/MeetingsPage.css'
 import MeetingHeader from './MeetingHeader';
 
@@ -89,7 +90,15 @@ const data = [
   },
 ]
 
+function showMeetingDetails(meeting, setMeeting, triggerRender, setTriggerRender) {
+  setMeeting(meeting)
+  
+}
+
 const MeetingsPage = () => {
+
+  const [meeting, setMeeting] = useState({});
+  const [triggerRender, setTriggerRender] = useState(1);
 
   return (
     <div className="container">
@@ -100,7 +109,7 @@ const MeetingsPage = () => {
             <div className="meetings-container">
               {data.map(meeting => {
                 return (
-                  <MeetingHeader data={meeting} />
+                  <MeetingHeader data={meeting} clickMe={showMeetingDetails} />
                 )
               })}
             </div>
