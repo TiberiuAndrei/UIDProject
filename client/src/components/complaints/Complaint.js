@@ -16,10 +16,10 @@ const Complaint = (props) => {
       </div>
       <div className="announcement-bottom-border">
         <div className="announcement-bottom-border-content">
-          <p>Solved</p>
+          <p className="complaint-p">Solved</p>
           <input type="checkbox" id="switch"
             class="checkbox" />
-          <label for="switch" class="toggle" />
+          <label className="complaint-label" for="switch" class="toggle" />
         </div>
       </div>
     </div>

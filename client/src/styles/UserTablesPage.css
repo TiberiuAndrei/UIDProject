@@ -1,0 +1,10 @@
+.tables-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.table1,.table2{
+    margin: 50px;
+}
+

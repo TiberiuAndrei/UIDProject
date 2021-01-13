@@ -3,12 +3,15 @@ import '../../styles/meetings/MeetingHeader.css';
 import { useHistory } from 'react-router-dom';
 
 const MeetingHeader = (props) => {
+
+  const history = useHistory()
+
   return (
     <div className="meeting">
       <div className="meeting-details">
         {props.data.name} Meeting - {props.data.hour}
       </div>
-      <div className="comment-button" onClick={e => props.clickMe()}>
+      <div className="comment-button">
         Comment
       </div>
     </div>

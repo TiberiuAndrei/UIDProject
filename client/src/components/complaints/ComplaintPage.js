@@ -76,9 +76,9 @@ const ComplaintPage = () => {
       <NavbarAdmin />
       <div className="container">
         <div className="content">
-          <form onSubmit={e => { search(query, setQuery, triggerRender, setTriggerRender, setComplaints); e.preventDefault() }}>
-            <input type="text" placeholder="Search.." name="search" value={query} onChange={e => setQuery(e.target.value)} />
-            <button type="submit"><i class="material-icons">search</i></button>
+          <form className="complaint-form" onSubmit={e => { search(query, setQuery, triggerRender, setTriggerRender, setComplaints); e.preventDefault() }}>
+            <input className="complaint-input" type="text" placeholder="Search.." name="search" value={query} onChange={e => setQuery(e.target.value)} />
+            <button className="complaint-button" type="submit"><i class="material-icons">search</i></button>
           </form>
 
           <div className="complaints-container">

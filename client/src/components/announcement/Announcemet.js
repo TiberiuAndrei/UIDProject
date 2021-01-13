@@ -9,7 +9,7 @@ function onButtonPressed (value, setIsClosed) {
 }
 
 function onSendButtonPressed (message, props, setTriggerRender, triggerRender) {
-    props.data.messages.push({sender: "Utilizator curent", content: message})
+    props.data.messages.push({sender: "ME", content: message})
     setTriggerRender(-triggerRender)
 }
 

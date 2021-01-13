@@ -18,18 +18,20 @@
   color: white;
 }
 
-form {
+.newMeetingForm {
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: flex;
 }
 
-label {
+.newMeetingLabel {
   margin-top: 20px;
 }
 
-input {
+.newMeetingInput {
+  padding: 0;
+  width: 100%;
   margin-top: 10px;
   height: 2rem;
   font-size: large;

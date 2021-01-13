@@ -1,0 +1,100 @@
+.roundboxComplaint {
+    border-radius: 45px;
+    background: rgb(69, 162, 158);
+    padding: 20px;
+    width: 400px;
+    height: 600px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.form {
+    text-align: left;
+    margin: 25px 50px 75px 55px;
+    color: #e6fff2;
+    font-size: 20px;
+}
+
+label {
+    font-size: 12px;
+}
+
+input {
+    color: #c2d6d6;
+}
+
+
+.name
+{
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 110px;
+}
+
+.emailGuest
+{
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 110px;
+}
+
+.address
+{
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 110px;
+}
+
+
+.phoneNumber
+{
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 110px;
+}
+
+.namemargin {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.emailMargin {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.phoneNumberMargin {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.addressMargin {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+
+
+.questionComplaint {
+    padding-left: 20px;
+    padding-bottom: 55px;
+    padding-top: 55px;
+    padding-right: 110px;
+}
+
+.button {
+    padding: 5px 100px;
+    text-align: center;
+    font-style: bold;
+    font-size: 15px;
+    margin: 60px 30px 65px 30px;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+}

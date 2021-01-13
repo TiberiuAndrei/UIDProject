@@ -1,0 +1,85 @@
+.box {
+    background: #1f2833;
+    padding: 20px;
+    width: 600px;
+    height: 450px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.header {
+    color: rgb(69, 162, 158);
+    text-align: center;
+}
+
+.instruction {
+    color:rgb(69, 162, 158);
+    text-align: center;
+    margin-top: 100px;
+    font-style: bold;
+    font-size: 20px;
+
+}
+
+.form {
+    text-align: left;
+    margin: 25px 50px 75px 55px;
+    color: black;
+    font-size: 20px;
+}
+
+.email
+{
+    color: black;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 150px;
+    margin: 10px 25px 10px 125px;
+    border-radius: 5px;
+}
+
+.password
+{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 150px;
+    margin: 10px 25px 10px 125px;
+    border-radius: 5px;
+}
+
+.login-sendButton {
+    padding: 5px 100px;
+    text-align: center;
+    font-style: bold;
+    font-size: 18px;
+    margin: 20px 30px 35px 220px;
+    background-color: #008B8B;
+    border-radius: 10px;
+}
+
+.link {
+    color: #008B8B;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    margin: 0 0 0 80px;
+    padding-left: 0;
+}
+
+.passwordmargin {
+    padding-left: 130px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: rgb(69, 162, 158)
+}
+
+.emailmargin {
+    padding-left: 130px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: rgb(69, 162, 158)
+}

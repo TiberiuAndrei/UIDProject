@@ -61,7 +61,7 @@ table button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    margin-top: 100px;
 }
 
 .add-user-button {
