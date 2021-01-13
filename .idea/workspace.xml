@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="08f970e2-e8d1-4727-aa22-53273d6cf164" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/components/askanything/AskAnything.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/askanything/AskaAnythingPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/images/exclamationmark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/leavecomplaint/LeaveComplaint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/leavecomplaint/LeaveComplaintPageOwner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/leavecomplaint/LeaveComplaintPageUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/login/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/map/Map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/map/MapPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/messages/complaint/ComplaintMessPageUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/messages/complaint/ComplaintSent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/messages/insuficientfunds/InsufficientFundsMess.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/messages/insuficientfunds/InsuficientFunds.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/messages/request/RequesSent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/messages/request/RequestSentGuest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/messages/request/RequestSentOwner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/messages/transaction/Transaction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/messages/transaction/TransactionPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/navbar/NavbarGuest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/navbar/NavbarOwner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/paybill/PayBill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/paybill/PayBillPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/tables/PaidBills.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/tables/UnpaidBillsAdmin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/tables/UnpaidBillsUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/tables/UserBillsPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/tables/UserTable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/welcome/WelcomePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/images/done.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/images/exclamation mark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/images/green-tick.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/images/map.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles/AskAnything.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles/ComplaintSent.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles/InsuficientFunds.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles/LeaveComplaint.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles/Login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles/Map.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles/PayBill.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles/RequestSent.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles/Transaction.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles/UnpaidBills.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles/UserTablesPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles/Users.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles/WelcomeMessage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1myv5QOBQylmOPfF4lxN3GfGkLg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/package.json" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alexandra\Desktop\anu4\UID\UIDProject\client\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alexandra\Desktop\anu4\UID\UIDProject\client\src\images" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08f970e2-e8d1-4727-aa22-53273d6cf164" name="Default Changelist" comment="" />
+      <created>1610478462284</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610478462284</updated>
+      <workItem from="1610478463925" duration="27256000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

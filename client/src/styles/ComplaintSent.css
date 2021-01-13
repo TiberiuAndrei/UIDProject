@@ -1,0 +1,28 @@
+.boxComplaint {
+    border-radius: 45px;
+    background: rgb(69, 162, 158);
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.complaintSent {
+    text-align: center;
+    font-size: 20px;
+    font-style: bold;
+    padding-top: 25px;
+}
+
+.returnButton {
+    background-color: rgb(69, 162, 158);
+    border-color: black;
+    border-radius: 15px;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    margin: 50px 10px 50px 75px;
+
+}
